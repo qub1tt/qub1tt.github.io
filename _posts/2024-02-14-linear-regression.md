@@ -155,7 +155,7 @@ Kết quả sau khi train:
 
 ![image](/assets/img/res.png)
 
-Cuối cùng vẽ lại đồ thị sau khi train mô hình:
+Cuối cùng vẽ lại đồ thị sau khi đã cập nhật giá trị w và b:
 
 ```python
 y_data = [x*w + b for x in x_data]
@@ -165,11 +165,11 @@ plt.scatter(areas, prices)
 
 ![image](/assets/img/matplot.png)
 
-Ở trên chỉ đề cập cách cài đặt thuật toán linear regression cơ bản, ta có thể sử dụng thư viện có sẵn của python để sử dụng các thuật toán ML.
+Ở trên chỉ đề cập cách cài đặt thuật toán linear regression thủ công, ta có thể sử dụng thư viện có sẵn của python để sử dụng các mô hình dự đoán.
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 
 ## Tổng kết
 
-Linear Regression là một mô hình đơn giản và nó được dùng để giải quyết mỗi bài toán tuyến tính, không thể biễu diễn được các mô hình phức tạp như các bài toán phi tuyến tính. Mặc dù vậy đây là một trong những thuật toán cơ bản của ML nhằm tạo nền tảng để các nhà nghiên cứu phát triển cho Deep Learning và AI sau này.
+Linear Regression là một thuật toán đơn giản và nó được dùng để giải quyết những bài toán tuyến tính, không thể biễu diễn được các mô hình phức tạp như bài toán phi tuyến tính. Mặc dù vậy đây là một trong những thuật toán cơ bản của ML nhằm tạo nền tảng để các nhà nghiên cứu phát triển về Deep Learning và AI sau này.
 
 ![image](/assets/img/summary.png)
